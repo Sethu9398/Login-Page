@@ -10,8 +10,10 @@
 </head>
 
 <body>
-    <div class="container-fluid d-flex justify-content-center align-items-center vh-100 " style="background-color: rgb(250, 249, 254);">
-        <div class="card text-center card-style shadow" style="width: 600px; height:auto; padding:10px 80px; border-radius: 10px;">
+    <div class="container-fluid d-flex justify-content-center align-items-center vh-100 "
+        style="background-color: rgb(250, 249, 254);">
+        <div class="card text-center card-style shadow"
+            style="width: 600px; height:auto; padding:10px 80px; border-radius: 10px;">
             <img src="Asset/logo.png" alt="logo" class="d-block mx-auto mt-2" style="width: 80px; height: 80px; ">
             <h4>Welcome Back</h4>
             <p class="text-secondary">Sign in to your account to continue</p>
@@ -27,9 +29,11 @@
                             <input type="password" class="form-control" id="password" placeholder="Password">
                             <span class="input-group-text bg-white" style="border-left: 0px">&#128065;</span>
                         </div>
-                        <div id="passwordHelpBlock" class="form-text d-flex justify-content-between align-items-start my-3">
+                        <div id="passwordHelpBlock"
+                            class="form-text d-flex justify-content-between align-items-start my-3">
                             <div class="form-check d-flex align-items-center ms-2">
-                                <input class="form-check-input fs-5 mt-0 checkboxleftmargin" type="checkbox" value="" id="checkDefault">
+                                <input class="form-check-input fs-5 mt-0 checkboxleftmargin" type="checkbox" value=""
+                                    id="checkDefault">
                                 <label class="form-check-label ms-2 fw-medium" for="checkDefault">
                                     Remember me
                                 </label>
@@ -41,26 +45,26 @@
                     </div>
                     <button type="submit" class="btn btn-primary d-flex justify-content-center w-100 text-center">Sign
                         in</button>
-                    <div class="d-flex my-3">
-                        <hr style="width: 250px;"><span class="mx-2">or</span>
-                        <hr style="width: 250px;">
-                    </div>
-                    <button class="btn d-flex btn-light d-flex justify-content-center w-100 text-center bg-white border border-dark-subtle fw-bold"><span><img src="Asset/google.png" class="me-2" style="width: 25px; height: 25px;" alt="Google Logo"></span> Sign in with Google</button>
-                    <div class=" mb-2 mt-4">
-                        <p class="text-secondary">don't have an account ? <a class="text-primary text-decoration-none" href="#">Sign up</a></p>
-                    </div>
                 </form>
-
+                <div class="d-flex my-3">
+                    <hr style="width: 250px;"><span class="mx-2">or</span>
+                    <hr style="width: 250px;">
+                </div>
+                <button
+                    class="btn d-flex btn-light d-flex justify-content-center w-100 text-center bg-white border border-dark-subtle fw-bold"><img
+                        src="Asset/google.png" class="me-2" style="width: 25px; height: 25px;" alt="Google Logo"></span>
+                    Sign in with Google</button>
+                <div class=" mb-2 mt-4">
+                    <p class="text-secondary">don't have an account ? <a class="text-primary text-decoration-none"
+                            href="#">Sign up</a></p>
+                </div>
             </div>
-
-
         </div>
-
     </div>
 
     <script>
-        const dummyEmail="sethu@gmail.com"
-        const dummyPassword="12345"
+        const dummyEmail = "sethu@gmail.com"
+        const dummyPassword = "12345"
 
         loginForm.addEventListener("submit", function (event) {
             event.preventDefault();
@@ -89,11 +93,6 @@
             }
 
         })
-
-        function showAlert(message, type) {
-
-
-        }
 
     </script>
 </body>
